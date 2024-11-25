@@ -1,0 +1,13 @@
+.options {
+    font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 133%;
+        color: #808080;
+}
+
+.options:hover {
+    color: #000000;
+    font-size: 18px;
+}
+

@@ -1,0 +1,40 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Palatino Linotype", sans-serif;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-family: var(--second-family);
+}
