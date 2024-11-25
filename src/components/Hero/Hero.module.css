@@ -1,0 +1,13 @@
+.title {
+    font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 174px;
+        line-height: 101%;
+        color: #333;
+        padding: 24px 104px;
+}
+
+.arrow {
+text-align: center;
+padding: 120px;
+}

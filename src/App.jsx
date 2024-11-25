@@ -1,7 +1,7 @@
 // App.jsx
 import './App.css';
 import Header from "./components/Header/Header.jsx";
-import Hello from "./components/HelloYou/HelloYou.jsx";
+import Hero from "./components/Hero/Hero.jsx";
 
 
 const dataOptions = [
@@ -12,11 +12,10 @@ const dataOptions = [
 
 function App() {
   return (
-    <div>
-      <p>My Portfolio</p>
+    <section>
       <Header options={dataOptions} />
-      <Hello />
-    </div>
+      <Hero />
+    </section>
   );
 }
 

@@ -1,13 +1,29 @@
 .options {
     font-family: var(--font-family);
         font-weight: 400;
-        font-size: 15px;
+        font-size: 24px;
         line-height: 133%;
         color: #808080;
 }
 
 .options:hover {
     color: #000000;
-    font-size: 18px;
+}
+
+.list {
+display: flex;
+    gap: 20px;
+}
+
+.container {
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 48px 104px;
+}
+
+.logo {
+    font-size: 32px;
+        font-weight: medium;
 }
 
